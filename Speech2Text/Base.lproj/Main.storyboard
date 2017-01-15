@@ -71,26 +71,25 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="QvP-QE-Czx">
-                                <rect key="frame" x="150" y="491" width="20" height="20"/>
+                                <rect key="frame" x="135" y="259" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="20" id="Dna-a8-m0G"/>
-                                    <constraint firstAttribute="height" constant="20" id="yYZ-8C-0RG"/>
+                                    <constraint firstAttribute="width" constant="50" id="Dna-a8-m0G"/>
+                                    <constraint firstAttribute="height" constant="50" id="yYZ-8C-0RG"/>
                                 </constraints>
+                                <color key="color" red="0.54901960780000003" green="1" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Noj-ng-PT6" secondAttribute="bottom" constant="8" id="2ag-CI-hMO"/>
-                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerY" secondItem="pO5-qD-lZA" secondAttribute="centerY" id="3D4-eC-ngp"/>
-                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerX" secondItem="pO5-qD-lZA" secondAttribute="centerX" id="4bo-9t-VEO"/>
                             <constraint firstItem="Noj-ng-PT6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Bi-2M-qSO"/>
-                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerX" secondItem="pO5-qD-lZA" secondAttribute="centerX" id="CPI-9g-gLo"/>
                             <constraint firstItem="pO5-qD-lZA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ExB-VS-Gxq"/>
                             <constraint firstAttribute="trailing" secondItem="H0f-1g-sWA" secondAttribute="trailing" id="JEd-Nc-rH1"/>
                             <constraint firstItem="H0f-1g-sWA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Skz-T9-6nY"/>
                             <constraint firstItem="L0A-T2-ZXZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="aDh-NB-9N8"/>
+                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="coS-N7-3bd"/>
+                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gQ8-at-bzL"/>
                             <constraint firstItem="H0f-1g-sWA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k8G-xV-Cru"/>
-                            <constraint firstItem="QvP-QE-Czx" firstAttribute="centerY" secondItem="pO5-qD-lZA" secondAttribute="centerY" id="mKM-Vq-yav"/>
                             <constraint firstItem="Noj-ng-PT6" firstAttribute="top" secondItem="pO5-qD-lZA" secondAttribute="bottom" constant="8" id="nSc-m6-8qT"/>
                             <constraint firstAttribute="trailing" secondItem="L0A-T2-ZXZ" secondAttribute="trailing" constant="20" id="r3h-c1-pij"/>
                             <constraint firstItem="pO5-qD-lZA" firstAttribute="top" secondItem="L0A-T2-ZXZ" secondAttribute="bottom" constant="20" id="ulw-tH-Irz"/>
